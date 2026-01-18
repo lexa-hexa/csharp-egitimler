@@ -29,3 +29,8 @@ decimal c = 1.10m;
 decimal d = 2.20m;
 Console.WriteLine(c + d);
 
+//Implicit Casting - otomatik dönüşüm
+//char -> int ->long -> float -> double
+//Explicit Casting Manuel
+//double -> float -> long -> int -> char
+
