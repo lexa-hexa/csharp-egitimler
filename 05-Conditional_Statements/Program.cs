@@ -76,4 +76,66 @@ else
 Console.WriteLine(string.Join(", ", kullaniciOgrenim));
 
 
+//----Switch Case Kullanımı 
+//Console.WriteLine("1 ile 12 arasında bir sayı giriniz");
+int ay = DateTime.Now.Month; //Convert.ToInt32(Console.ReadLine()); 
+//Üstte başta kullanıcıya tanımlattırdık sonra dedikki aya göre söylesin hangi aydaysak ona göre veri döndürüyor
+
+switch (ay)
+{
+    case 12:
+    case 1:
+    case 2:
+        Console.WriteLine("Kış Mevsimi");
+        break;
+    case 3:
+    case 4:
+    case 5:
+        Console.WriteLine("İlkbahar Mevsimi");
+        break;
+    case 6:
+    case 7:
+    case 8:
+        Console.WriteLine("Yaz Mevsimi");
+        break;
+    case 9:
+    case 10:
+    case 11:
+        Console.WriteLine("Sonbahar Mevsimi");
+        break;
+    default:
+        Console.WriteLine("Yanlış bilgi girdiniz.");
+        break;
+}
+
+//Bana bir öğrencinin notlarına göre geçip geçmediğini söyleyen yapıyı kur
+int not = Convert.ToInt32(Console.ReadLine());
+
+switch (not / 10)
+{
+    case 0:
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+        Console.WriteLine("Kaldı");
+        break;
+    case 5:
+    case 6:
+        Console.WriteLine("Geçer Not");
+        break;
+    case 7:
+    case 8:
+        Console.WriteLine("İyi geçti");
+        break;
+    case 9:
+    case 10:
+        Console.WriteLine("Süper notla geçti");
+        break;
+    default:
+        Console.WriteLine("Yanlış bir değer var");
+        break;
+}
+
+
 Console.Read();
