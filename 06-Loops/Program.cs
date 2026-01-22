@@ -133,4 +133,92 @@ do
 } while (secim != 5);
 Console.WriteLine("Çıkış yapıldı.");
 
+//Foreach Döngüsü
+//Bu döngü genelde dizilerde kullanılır
+Console.WriteLine("Foreach Döngüsü");
+
+int[] ogrenciler = {100, 200, 300, 400, 500 };
+string[] isimler = { "Enes", "Ahmet", "Tamer" };
+// var değişkeni otomatik veri tipini belirlemede yardımcı olur
+foreach (var item in isimler)
+{
+    Console.WriteLine("Öğrenci Adı: " + item);
+}
+foreach (var ogrenciNo in ogrenciler)
+{
+    Console.WriteLine("Öğrenci Numarası: " + ogrenciNo);
+}
+//Ürün durumu sistemi 
+int[] fiyatlar = {120, 75, 340, 50, 90, 0, -50};
+
+foreach (var item in fiyatlar)
+{
+    if (item < 100 && item > 0)
+    {
+        Console.WriteLine("Fiyat: " + item + " -> Geçersiz Ürün");
+    }
+    else if(item <= 0)
+    {
+        Console.WriteLine("Fiyat: " + item + " -> Uygun Ürün");
+    }
+    else
+    {
+        Console.WriteLine("Fiyat: " + item + " -> Pahalı Ürün");
+    }
+
+//İç İçe For Döngüsü
+Console.WriteLine("İç İçe For Döngüsü");
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine("i değişkeninin değeri {0}", i);
+    for (int j = 0; j < 3; j++)
+    {
+        Console.WriteLine("\t j değişkeninin değeri {0}", j);
+    }
+}
+
+//Çarpım Tablosu Yazdırma
+for (int i = 1; i <= 5; i++)
+{
+    Console.WriteLine("{0}'larla Çarpım", i);
+    for(int j = 1;j <= 5; j++) 
+    {
+        Console.WriteLine($"{i} x {j} = {i * j}");
+    }
+}
+}
+
+int[] ogrenciler = { 100, 200, 300, 400, 500 };
+string[] isimler = { "Enes", "Ahmet", "Tamer" };
+Console.WriteLine("İç İçe Foreach Döngüsü");
+foreach (var isim in isimler)
+{
+    Console.WriteLine("Öğrenci Adı: " + isim);
+    foreach (var ogrenciNo in ogrenciler)
+    {
+        Console.WriteLine("   Öğrenci No: " + ogrenciNo);
+    }
+}
+
+//Sınıf ayrımı
+//(Array of arrays)jagged array
+string[] urunGrubu = { "Meyveler", "Sebzeler", "İçecekler" };
+string[][] urunler =
+{
+    new string[] {"Elma", "Armut", "Çilek", "Muz" },
+    new string[] { "Domates", "Salatalık", "Biber" },
+    new string[] { "Su", "Kola", "Enerji İçeceği", "Bira" }
+};
+int index = 0;
+foreach (var grup in urunGrubu)
+{
+    Console.WriteLine(grup + ": ");
+    foreach (var urun in urunler[index])
+    {
+        Console.WriteLine("\t" + urun);
+    }
+    index++;
+}
+
+
 Console.Read();
