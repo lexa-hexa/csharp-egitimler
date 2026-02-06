@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-Methods", "07-Methods\07
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-Classes", "08-Classes\08-Classes.csproj", "{B2B32284-255E-400F-93D5-7064B22C77F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-Methods-TextAnalyzer", "07-Methods-TextAnalyzer\07-Methods-TextAnalyzer.csproj", "{4408D917-FDC2-4608-BD81-4BE3C6F17BE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-Access_Modifiers", "09-Access_Modifiers\09-Access_Modifiers.csproj", "{E4D6DA7A-0FDB-4A54-B35D-EA442D9A88E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{B2B32284-255E-400F-93D5-7064B22C77F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2B32284-255E-400F-93D5-7064B22C77F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2B32284-255E-400F-93D5-7064B22C77F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4408D917-FDC2-4608-BD81-4BE3C6F17BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4408D917-FDC2-4608-BD81-4BE3C6F17BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4408D917-FDC2-4608-BD81-4BE3C6F17BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4408D917-FDC2-4608-BD81-4BE3C6F17BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D6DA7A-0FDB-4A54-B35D-EA442D9A88E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D6DA7A-0FDB-4A54-B35D-EA442D9A88E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D6DA7A-0FDB-4A54-B35D-EA442D9A88E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D6DA7A-0FDB-4A54-B35D-EA442D9A88E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

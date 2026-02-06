@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4408D917-FDC2-4608-BD81-4BE3C6F17BE4}</ProjectGuid>
+    <ProjectGuid>{E4D6DA7A-0FDB-4A54-B35D-EA442D9A88E9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_07_Methods_TextAnalyzer</RootNamespace>
-    <AssemblyName>07-Methods-TextAnalyzer</AssemblyName>
+    <RootNamespace>_09_Access_Modifiers</RootNamespace>
+    <AssemblyName>09-Access_Modifiers</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
