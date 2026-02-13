@@ -44,9 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankaHesabi.cs" />
-    <Compile Include="Islem.cs" />
     <Compile Include="Kisi.cs" />
-    <Compile Include="Musteri.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Urun.cs" />
