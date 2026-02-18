@@ -7,7 +7,7 @@
     <ProjectGuid>{7A4CF25F-C8B5-4918-B658-764F8A49246D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_13_Enums</RootNamespace>
-    <AssemblyName>_13_Enums</AssemblyName>
+    <AssemblyName>13-Enums</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

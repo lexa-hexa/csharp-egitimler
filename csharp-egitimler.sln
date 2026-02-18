@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-Structs", "11-Structs\11
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-StringClass", "12-StringClass\12-StringClass.csproj", "{A55BD3D9-A999-4C4A-B348-702153FD5350}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-Enums", "13-Enums\13-Enums.csproj", "{7A4CF25F-C8B5-4918-B658-764F8A49246D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{A55BD3D9-A999-4C4A-B348-702153FD5350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A55BD3D9-A999-4C4A-B348-702153FD5350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A55BD3D9-A999-4C4A-B348-702153FD5350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4CF25F-C8B5-4918-B658-764F8A49246D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4CF25F-C8B5-4918-B658-764F8A49246D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4CF25F-C8B5-4918-B658-764F8A49246D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4CF25F-C8B5-4918-B658-764F8A49246D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
