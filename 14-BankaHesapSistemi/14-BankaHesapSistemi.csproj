@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D4D89D7D-E7A5-4649-9DE8-E1CA9CEE25DC}</ProjectGuid>
+    <ProjectGuid>{E3C65699-3C6D-4744-8D9E-2C2544454411}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_14_Inheritance</RootNamespace>
-    <AssemblyName>14-Inheritance</AssemblyName>
+    <RootNamespace>_14_BankaHesapSistemi</RootNamespace>
+    <AssemblyName>14-BankaHesapSistemi</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

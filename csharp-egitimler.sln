@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-StringClass", "12-String
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-Enums", "13-Enums\13-Enums.csproj", "{7A4CF25F-C8B5-4918-B658-764F8A49246D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-Inheritance", "14-Inheritance\14-Inheritance.csproj", "{D4D89D7D-E7A5-4649-9DE8-E1CA9CEE25DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-BankaHesapSistemi", "14-BankaHesapSistemi\14-BankaHesapSistemi.csproj", "{E3C65699-3C6D-4744-8D9E-2C2544454411}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{7A4CF25F-C8B5-4918-B658-764F8A49246D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A4CF25F-C8B5-4918-B658-764F8A49246D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A4CF25F-C8B5-4918-B658-764F8A49246D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D89D7D-E7A5-4649-9DE8-E1CA9CEE25DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D89D7D-E7A5-4649-9DE8-E1CA9CEE25DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D89D7D-E7A5-4649-9DE8-E1CA9CEE25DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D89D7D-E7A5-4649-9DE8-E1CA9CEE25DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C65699-3C6D-4744-8D9E-2C2544454411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C65699-3C6D-4744-8D9E-2C2544454411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C65699-3C6D-4744-8D9E-2C2544454411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C65699-3C6D-4744-8D9E-2C2544454411}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
