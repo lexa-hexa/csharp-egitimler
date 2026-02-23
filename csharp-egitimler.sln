@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-BankaHesapSistemi", "14-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-Encapsulation", "15-Encapsulation\15-Encapsulation.csproj", "{9518207F-63B9-4488-9718-7AB362A64DCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-PekistirmeOrnekler", "15-PekistirmeOrnekler\15-PekistirmeOrnekler.csproj", "{916F0E81-1CFC-4575-B8B6-F9CD1D299B31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{9518207F-63B9-4488-9718-7AB362A64DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9518207F-63B9-4488-9718-7AB362A64DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9518207F-63B9-4488-9718-7AB362A64DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916F0E81-1CFC-4575-B8B6-F9CD1D299B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916F0E81-1CFC-4575-B8B6-F9CD1D299B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916F0E81-1CFC-4575-B8B6-F9CD1D299B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916F0E81-1CFC-4575-B8B6-F9CD1D299B31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
