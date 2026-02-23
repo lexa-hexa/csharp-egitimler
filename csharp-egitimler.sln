@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-Encapsulation", "15-Enca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-PekistirmeOrnekler", "15-PekistirmeOrnekler\15-PekistirmeOrnekler.csproj", "{916F0E81-1CFC-4575-B8B6-F9CD1D299B31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-Interfaces", "16-Interfaces\16-Interfaces.csproj", "{BC1D3102-1FE6-4AEF-93E5-34DABD4AFB3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-PekistirmeOrnekler", "16-PekistirmeOrnekler\16-PekistirmeOrnekler.csproj", "{52B78124-82DC-4C8F-B66C-30B623BEAC22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{916F0E81-1CFC-4575-B8B6-F9CD1D299B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{916F0E81-1CFC-4575-B8B6-F9CD1D299B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{916F0E81-1CFC-4575-B8B6-F9CD1D299B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1D3102-1FE6-4AEF-93E5-34DABD4AFB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1D3102-1FE6-4AEF-93E5-34DABD4AFB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1D3102-1FE6-4AEF-93E5-34DABD4AFB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1D3102-1FE6-4AEF-93E5-34DABD4AFB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B78124-82DC-4C8F-B66C-30B623BEAC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B78124-82DC-4C8F-B66C-30B623BEAC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B78124-82DC-4C8F-B66C-30B623BEAC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B78124-82DC-4C8F-B66C-30B623BEAC22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
