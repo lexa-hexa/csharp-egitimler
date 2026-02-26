@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-AbstractClasses", "17-Ab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-CalisanSistemiOrnek", "17-CalisanSistemiOrnek\17-CalisanSistemiOrnek.csproj", "{984BC6EA-6E85-4F70-89C4-9A2C100F0467}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-Collections", "18-Collections\18-Collections.csproj", "{D04DC659-B3B4-42D6-8AE2-27F62E64A742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-PekistirmeOrnekler", "18-PekistirmeOrnekler\18-PekistirmeOrnekler.csproj", "{E72B7468-8824-4C48-92DD-39954ABE90D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{984BC6EA-6E85-4F70-89C4-9A2C100F0467}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{984BC6EA-6E85-4F70-89C4-9A2C100F0467}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{984BC6EA-6E85-4F70-89C4-9A2C100F0467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04DC659-B3B4-42D6-8AE2-27F62E64A742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04DC659-B3B4-42D6-8AE2-27F62E64A742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04DC659-B3B4-42D6-8AE2-27F62E64A742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04DC659-B3B4-42D6-8AE2-27F62E64A742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72B7468-8824-4C48-92DD-39954ABE90D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72B7468-8824-4C48-92DD-39954ABE90D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72B7468-8824-4C48-92DD-39954ABE90D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72B7468-8824-4C48-92DD-39954ABE90D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
