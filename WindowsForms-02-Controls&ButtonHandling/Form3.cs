@@ -20,7 +20,7 @@ namespace WindowsForms_02_Controls_ButtonHandling
         private void timer1_Tick(object sender, EventArgs e)
         {
             Random random = new Random();// Random rastgele değer üretmemizi sağlar
-            this.BackColor = Color.FromArgb(random.Next(1, 100), random.Next(1, 100), random.Next(1, 100));
+            this.BackColor = Color.FromArgb(random.Next(1, 256), random.Next(1, 256), random.Next(1, 256));
 
         }
 

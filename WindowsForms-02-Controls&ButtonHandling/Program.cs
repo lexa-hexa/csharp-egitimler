@@ -16,7 +16,7 @@ namespace WindowsForms_02_Controls_ButtonHandling
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form3());//Proje çalıştığında ilk hangi pencere açılacağını yazıyor
+            Application.Run(new Form4());//Proje çalıştığında ilk hangi pencere açılacağını yazıyor
         }
     }
 }
