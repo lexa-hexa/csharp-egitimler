@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-Collections", "18-Collec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-PekistirmeOrnekler", "18-PekistirmeOrnekler\18-PekistirmeOrnekler.csproj", "{E72B7468-8824-4C48-92DD-39954ABE90D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19-Delegates", "19-Delegates\19-Delegates.csproj", "{495C8FB8-A578-4FF6-B9EE-89FFE2EED955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19-PekistirmeOrnekler", "19-PekistirmeOrnekler\19-PekistirmeOrnekler.csproj", "{2A152AAC-36DE-447A-817F-62A3237A466F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +157,14 @@ Global
 		{E72B7468-8824-4C48-92DD-39954ABE90D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E72B7468-8824-4C48-92DD-39954ABE90D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E72B7468-8824-4C48-92DD-39954ABE90D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495C8FB8-A578-4FF6-B9EE-89FFE2EED955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495C8FB8-A578-4FF6-B9EE-89FFE2EED955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495C8FB8-A578-4FF6-B9EE-89FFE2EED955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495C8FB8-A578-4FF6-B9EE-89FFE2EED955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A152AAC-36DE-447A-817F-62A3237A466F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A152AAC-36DE-447A-817F-62A3237A466F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A152AAC-36DE-447A-817F-62A3237A466F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A152AAC-36DE-447A-817F-62A3237A466F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
