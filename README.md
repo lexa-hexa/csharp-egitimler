@@ -1,130 +1,161 @@
-# 🎓 C# Eğitim ve Öğrenme Deposu (Console Uygulamaları)
-
-Bu depo, **C# öğrenme sürecimde** konuları adım adım ilerleyerek geliştirdiğim **console uygulamalarını** içermektedir. Amaç; C# temellerini **ezbere değil**, arkasındaki **mantığı anlayarak** öğrenmek ve bu temeli ileride **gerçek dünya projelerine** sağlam bir şekilde taşımaktır.
-
-Her klasör, belirli bir konuyu temsil eder ve o konuya ait **örnekler, mini alıştırmalar ve küçük uygulamalar** barındırır. Konular ilerledikçe, örnekler de daha gerçekçi senaryolar içerecek şekilde geliştirilmiştir.
-
-🎯 **Nihai hedefim:** Sağlam bir C# temeli üzerine **Web API**, **veritabanı** ve **full‑stack** projeler geliştirmek.
+# C# Learning Repository  
+## Console Applications • OOP • Practice Projects  
 
 ---
 
-## 📂 Repo Yapısı ve İçerik
+# 🇹🇷 Türkçe
 
-### 🔹 Konular
+## 📌 Proje Hakkında
 
-#### 01 – Değişkenler (Variables)
+Bu repo, C# öğrenme sürecimi sistematik ve disiplinli bir şekilde belgelemek amacıyla oluşturulmuştur.  
 
-* Temel veri tipleri: `int`, `string`, `bool`, `double`, `char`, `float`, `decimal`, `long`, `DateTime`
-* Değişken tanımlama ve kullanım örnekleri
-* `double` ve `decimal` arasındaki farklar
-* Finansal işlemlerde neden `decimal` tercih edilmesi gerektiği
+Amacım yalnızca sözdizimini öğrenmek değil; C# dilinin arkasındaki **mantığı, OOP prensiplerini ve yazılım tasarım yaklaşımını** sağlam bir temel üzerine oturtmaktır.
 
-#### 02 – Veri Tipleri ve Tür Dönüşümleri
+Bu çalışma, backend geliştirme alanında uzmanlaşma hedefim doğrultusunda oluşturulmuş temel yapı taşlarını içermektedir.  
+Bir sonraki aşamada bu temeli ASP.NET Core Web API ve veritabanı projeleri ile ileri seviyeye taşımayı planlıyorum.
 
-* Implicit / Explicit conversion
-* `Convert`, `Parse`, `TryParse` kullanımı
+---
 
-#### 03 – Operatörler
+## 📂 Repo Yapısı
 
-* Aritmetik, karşılaştırma ve mantıksal operatörler
-* Operatör önceliği
+Her klasör belirli bir konuyu veya pekiştirme projesini temsil eder.  
+Konular temel seviyeden başlayarak ileri OOP konularına doğru ilerlemektedir.
 
-#### 04 – Koşul Yapıları (if / switch)
+### 🔹 Temel Konular
+- `01-Varibles` – Veri tipleri, decimal vs double farkı  
+- `02-Veri_Tipleri_ve_Donusumler` – Tür dönüşümleri  
+- `03-Arrays` – Dizi mantığı  
+- `04-Operators` – Operatörler  
+- `05-Conditional_Statements` – if / switch  
+- `06-Loops` – Döngüler  
 
-* Karar mekanizmaları
-* Gerçek senaryo örnekleri
+### 🔹 Metotlar ve Modülerlik
+- `07-Methods`  
+- `07-Methods-TextAnalyzer` (Mini uygulama)  
 
-#### 05 – Döngüler (for / while / foreach / do‑while)
+### 🔹 OOP ve İleri Konular
+- `08-Classes`  
+- `09-Access_Modifiers`  
+- `10-Properties`  
+- `11-Structs`  
+- `12-StringClass`  
+- `13-Enums`  
+- `14-Inheritance`  
+- `15-Encapsulation`  
+- `16-Interfaces`  
+- `17-AbstractClasses`  
+- `18-Collections`  
+- `19-Delegates`  
 
-* Tekrarlayan işlemler
-* Döngü kontrol yapıları
+### 🔹 Mini Projeler
+- Banka Hesap Sistemi (Console tabanlı senaryo)  
+- Çalışan Yönetim Sistemi  
+- Konu sonrası pekiştirme örnekleri  
 
-#### 06 – Metotlar
-
-* Parametre alan / almayan metotlar
-* Geriye değer döndüren metotlar
-* Metotlarla kod tekrarını azaltma
-
-#### 07 – Diziler ve Koleksiyonlar
-
-* Array mantığı
-* Temel koleksiyon kullanımı
-
-#### 08 – Classes (Nesne Yönelimli Programlama – OOP)
-
-* Class ve Object kavramları
-* Constructor (kurucu metot)
-* Field ve Method ayrımı
-* Gerçek hayat senaryosu: **BankaHesabi** örnek uygulaması
-
-📌 Yeni konular, öğrenme sürecime paralel olarak **düzenli şekilde eklenecektir**.
+### 🔹 Windows Forms
+Temel event-driven programlama ve UI etkileşimi pratikleri.
 
 ---
 
 ## ▶️ Nasıl Çalıştırılır?
 
-### 🟦 Seçenek 1 – Visual Studio ile
+### Visual Studio ile
+1. `csharp-egitimler.sln` dosyasını açın  
+2. Çalıştırmak istediğiniz projeyi Startup Project yapın  
+3. `F5` ile çalıştırın  
 
-1. `csharp-egitimler.sln` dosyasını açın
-2. Çalıştırmak istediğiniz projeyi seçin (örn: `08-Classes`)
-3. **Run / Çalıştır**
-
-### 🟦 Seçenek 2 – .NET CLI ile
-
-Repo kök dizininde aşağıdaki komutları çalıştırın:
+### .NET CLI ile
 
 ```bash
 dotnet build
-dotnet run --project src/01-Variables/Variables/Variables.csproj
+dotnet run --project "<project_path>.csproj"
 ```
 
 ---
 
-## 💡 Neden Finansal İşlemlerde `decimal` Kullanılır?
+## 💡 Finansal İşlemlerde Neden `decimal`?
 
-* `double` veri tipi ikili (binary) sayı sistemi kullandığı için küçük hassasiyet hatalarına yol açabilir.
-* `decimal` veri tipi ise ondalık tabanlıdır ve **finansal hesaplamalar** için tasarlanmıştır.
+`double` binary tabanlı olduğu için küçük hassasiyet hatalarına yol açabilir.  
+`decimal` ise ondalık tabanlıdır ve finansal işlemler için daha güvenlidir.
 
-📌 Bu nedenle aşağıdaki işlemlerde `decimal` kullanımı daha doğru ve güvenlidir:
-
-* Para
-* Maaş
-* Fiyat
-* Vergi
+Para, maaş, vergi ve fiyat hesaplamalarında `decimal` tercih edilir.
 
 ---
 
-## 🗺️ Öğrenme Yol Haritası
+# 🇬🇧 English
 
-* 01 – Değişkenler
-* 02 – Veri Tipleri ve Tür Dönüşümleri
-* 03 – Operatörler
-* 04 – Koşul Yapıları
-* 05 – Döngüler
-* 06 – Metotlar
-* 07 – Diziler ve Koleksiyonlar
-* 08 – Classes (OOP)
-* 09 – Access Modifiers
-* 10 – Exception Handling
-* 11 – Mini Console Projeleri
+## 📌 About This Project
+
+This repository documents my structured and disciplined C# learning journey.
+
+My goal is not only to learn syntax, but to deeply understand the **core programming logic, OOP principles, and software design mindset** behind the language.
+
+This repository represents the foundational stage of my backend development journey.  
+The next step is applying this foundation to ASP.NET Core Web API and database-driven projects.
 
 ---
 
-## 🚀 Sonraki Aşama
+## 📂 Repository Structure
 
-* Web API
-* Veritabanı (SQL)
-* Full‑Stack uygulamalar
+Each folder represents a specific topic or reinforcement project.  
+Topics progress from fundamentals to advanced OOP concepts.
+
+### 🔹 Fundamentals
+- Variables  
+- Type Conversions  
+- Arrays  
+- Operators  
+- Conditionals  
+- Loops  
+
+### 🔹 Methods & Modularity
+- Method fundamentals  
+- Text Analyzer mini project  
+
+### 🔹 Object-Oriented Programming
+- Classes  
+- Access Modifiers  
+- Properties  
+- Structs  
+- Enums  
+- Inheritance  
+- Encapsulation  
+- Interfaces  
+- Abstract Classes  
+- Collections  
+- Delegates  
+
+### 🔹 Practice Projects
+- Banking System (Console-based)  
+- Employee Management Scenario  
+- Reinforcement Exercises  
+
+### 🔹 Windows Forms
+Basic event-driven programming and UI interaction practice.
 
 ---
 
-## 👤 Hakkımda
+## ▶️ How to Run
 
-**Enes Yerebakan**
-Aspiring Backend / Full‑Stack Developer
+Using Visual Studio:
+1. Open `csharp-egitimler.sln`  
+2. Select the desired project  
+3. Press `F5`  
 
-🔗 GitHub: [https://github.com/lexa-hexa](https://github.com/lexa-hexa)
+Using .NET CLI:
+
+```bash
+dotnet build
+dotnet run --project "<project_path>.csproj"
+```
 
 ---
 
-Bu repo, öğrenme sürecimi **şeffaf bir şekilde belgelemek** ve gelişimimi **adım adım göstermek** amacıyla oluşturulmuştur.
+## 👤 About Me
+
+**Enes Yerebakan**  
+Aspiring Backend / Full-Stack Developer  
+
+GitHub: https://github.com/lexa-hexa  
+
+This repository reflects my structured progression toward becoming an enterprise-level backend developer.
