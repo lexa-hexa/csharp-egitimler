@@ -73,6 +73,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms-08-TabControlC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms-09-Media&FolderOrganization", "WindowsForms-09-Media&FolderOrganization\WindowsForms-09-Media&FolderOrganization.csproj", "{F5561E02-C032-4E6C-853C-81036CC21115}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL-01-CoreConcepts", "SQL-01-CoreConcepts", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		01-ddl.sql = 01-ddl.sql
+		02-dml.sql = 02-dml.sql
+		03-dcl.sql = 03-dcl.sql
+		04-identity.sql = 04-identity.sql
+		05-backup-truncate-drop.sql = 05-backup-truncate-drop.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
