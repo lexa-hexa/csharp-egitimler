@@ -82,6 +82,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL-01-CoreConcepts", "SQL-
 		05-backup-truncate-drop.sql = 05-backup-truncate-drop.sql
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms-10-Ado.Net-01", "WindowsForms-10-Ado.Net-01\WindowsForms-10-Ado.Net-01.csproj", "{99D31A36-B3C2-448D-80A6-441DA9F8C74B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -228,6 +230,10 @@ Global
 		{F5561E02-C032-4E6C-853C-81036CC21115}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5561E02-C032-4E6C-853C-81036CC21115}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5561E02-C032-4E6C-853C-81036CC21115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D31A36-B3C2-448D-80A6-441DA9F8C74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D31A36-B3C2-448D-80A6-441DA9F8C74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D31A36-B3C2-448D-80A6-441DA9F8C74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D31A36-B3C2-448D-80A6-441DA9F8C74B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
