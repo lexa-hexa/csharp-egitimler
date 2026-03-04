@@ -55,14 +55,10 @@ Bu proje aşağıdaki konuları pekiştirmek amacıyla geliştirilmiştir:
 
 ## 📷 Application Screenshots
 
-### Add Product
-![Add Product](./images/add-product.png)
+| Add Product | Update Product |
+|-------------|---------------|
+| ![](images/add-product.png) | ![](images/update-product.png) |
 
-### Update Product
-![Update Product](./images/update-product.png)
-
-### Delete Confirmation
-![Delete Confirmation](./images/delete-confirm.png)
-
-### Delete Result
-![Delete Result](./images/delete-result.png)
+| Delete Confirmation | Delete Result |
+|---------------------|--------------|
+| ![](images/delete-confirm.png) | ![](images/delete-result.png) |
