@@ -56,13 +56,13 @@ Bu proje aşağıdaki konuları pekiştirmek amacıyla geliştirilmiştir:
 ## 📷 Application Screenshots
 
 ### Add Product
-![Add Product](WindowsForms-10-Ado.Net-01/images/add-product.png)
+![Add Product](./images/add-product.png)
 
 ### Update Product
-![Update Product](WindowsForms-10-Ado.Net-01/images/update-product.png)
+![Update Product](./images/update-product.png)
 
 ### Delete Confirmation
-![Delete Confirmation](WindowsForms-10-Ado.Net-01/images/delete-confirm.png)
+![Delete Confirmation](./images/delete-confirm.png)
 
 ### Delete Result
-![Delete Result](WindowsForms-10-Ado.Net-01/images/delete-result.png)
+![Delete Result](./images/delete-result.png)
