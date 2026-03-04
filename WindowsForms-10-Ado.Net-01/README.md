@@ -51,3 +51,18 @@ Bu proje aşağıdaki konuları pekiştirmek amacıyla geliştirilmiştir:
 * SqlCommand kullanımı
 * SQL CRUD işlemleri
 * Windows Forms ile veritabanı işlemleri
+
+
+## 📷 Application Screenshots
+
+### Add Product
+![Add Product](images/add-product.png)
+
+### Update Product
+![Update Product](images/update-product.png)
+
+### Delete Confirmation
+![Delete Confirmation](images/delete-confirm.png)
+
+### Delete Result
+![Delete Result](images/delete-result.png)
