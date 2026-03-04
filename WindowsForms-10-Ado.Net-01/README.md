@@ -57,8 +57,8 @@ Bu proje aşağıdaki konuları pekiştirmek amacıyla geliştirilmiştir:
 
 | Add Product | Update Product |
 |-------------|---------------|
-| ![](images/add-product.png) | ![](images/update-product.png) |
+| ![](Images/add-product.png) | ![](Images/update-product.png) |
 
 | Delete Confirmation | Delete Result |
 |---------------------|--------------|
-| ![](images/delete-confirm.png) | ![](images/delete-result.png) |
+| ![](Images/delete-confirm.png) | ![](Images/delete-result.png) |
