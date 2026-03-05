@@ -52,6 +52,17 @@ namespace WindowsForms_10_Ado.Net_01
             _connection.Close();
             return Products;
         }
+        public DataTable GetTable()
+        {
+            ConnectionKontrol();
+            SqlCommand command = new SqlCommand("Select * from products", _connection);
+            SqlDataReader reader = command.ExecuteReader();
+            DataTable dataTable = new DataTable();
+            dataTable.Load(reader);
+            reader.Close();
+            _connection.Close();
+            return dataTable;
+        }
         public void Update(Product product)
         {
             ConnectionKontrol();
