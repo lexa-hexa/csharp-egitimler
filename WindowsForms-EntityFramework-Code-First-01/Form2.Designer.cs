@@ -59,6 +59,7 @@
             // 
             // btnSil
             // 
+            this.btnSil.Enabled = false;
             this.btnSil.Location = new System.Drawing.Point(184, 117);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(75, 23);
@@ -69,6 +70,7 @@
             // 
             // btnGuncelle
             // 
+            this.btnGuncelle.Enabled = false;
             this.btnGuncelle.Location = new System.Drawing.Point(103, 117);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(75, 23);

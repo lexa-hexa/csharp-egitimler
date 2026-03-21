@@ -24,6 +24,7 @@ namespace WindowsForms_EntityFramework_Code_First_01
         void Yukle()
         {
             dgvUrunListesi.DataSource = urunDbContext.Products.ToList();
+            cmbKategoriler.DataSource = urunDbContext.Categories.ToList();
         }
         private void btnKayitEkle_Click(object sender, EventArgs e)
         {
@@ -32,7 +33,8 @@ namespace WindowsForms_EntityFramework_Code_First_01
                 {
                     StokMiktari = Convert.ToInt32(txtStokMiktari.Text),
                     UrunFiyati = Convert.ToDecimal(txtUrunFiyati.Text),
-                    UrunAdi = txtUrunAdi.Text
+                    UrunAdi = txtUrunAdi.Text,
+                    CategoryId = (int)cmbKategoriler.SelectedValue
                 }
                 );
 

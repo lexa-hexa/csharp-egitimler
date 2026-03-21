@@ -49,6 +49,8 @@ namespace WindowsForms_EntityFramework_Code_First_01
 
         private void dgvKategoriler_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            btnGuncelle.Enabled = true;
+            btnSil.Enabled = true;
             int id = Convert.ToInt32(dgvKategoriler.CurrentRow.Cells[0].Value);
             var kayit = urunDbContext.Categories.Find(id);
 
@@ -66,6 +68,9 @@ namespace WindowsForms_EntityFramework_Code_First_01
             Yukle();
             if (sonuc > 0)
             {
+                //btnSil.Enabled = false;
+                //btnGuncelle.Enabled = false;
+                //txtKategoriAdi.Text = string.Empty;
                 MessageBox.Show("Kategori eklendi");
             }
             else
@@ -85,6 +90,7 @@ namespace WindowsForms_EntityFramework_Code_First_01
             Yukle();
             if (sonuc > 0) 
             {
+                
                 MessageBox.Show("Silme başarılı");
             }
             else

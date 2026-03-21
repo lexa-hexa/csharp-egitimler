@@ -41,12 +41,16 @@
             this.lblId = new System.Windows.Forms.Label();
             this.txtArama = new System.Windows.Forms.TextBox();
             this.dgvUrunListesi = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cmbKategoriler = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUrunListesi)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cmbKategoriler);
+            this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.btnSil);
             this.groupBox1.Controls.Add(this.btnGuncelle);
             this.groupBox1.Controls.Add(this.btnKayitEkle);
@@ -57,16 +61,16 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.lblUrunAdi);
             this.groupBox1.Controls.Add(this.lblId);
-            this.groupBox1.Location = new System.Drawing.Point(490, 79);
+            this.groupBox1.Location = new System.Drawing.Point(467, 79);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(282, 246);
+            this.groupBox1.Size = new System.Drawing.Size(321, 359);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ürün Kayıt";
             // 
             // btnSil
             // 
-            this.btnSil.Location = new System.Drawing.Point(184, 185);
+            this.btnSil.Location = new System.Drawing.Point(185, 230);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(75, 23);
             this.btnSil.TabIndex = 9;
@@ -76,7 +80,7 @@
             // 
             // btnGuncelle
             // 
-            this.btnGuncelle.Location = new System.Drawing.Point(103, 185);
+            this.btnGuncelle.Location = new System.Drawing.Point(104, 230);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(75, 23);
             this.btnGuncelle.TabIndex = 8;
@@ -86,7 +90,7 @@
             // 
             // btnKayitEkle
             // 
-            this.btnKayitEkle.Location = new System.Drawing.Point(22, 185);
+            this.btnKayitEkle.Location = new System.Drawing.Point(23, 230);
             this.btnKayitEkle.Name = "btnKayitEkle";
             this.btnKayitEkle.Size = new System.Drawing.Size(75, 23);
             this.btnKayitEkle.TabIndex = 7;
@@ -170,6 +174,25 @@
             this.dgvUrunListesi.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUrunListesi_CellClick);
             this.dgvUrunListesi.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUrunListesi_CellContentClick);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(22, 169);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(81, 13);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "Kategori seçiniz";
+            // 
+            // cmbKategoriler
+            // 
+            this.cmbKategoriler.DisplayMember = "KategoriAdi";
+            this.cmbKategoriler.FormattingEnabled = true;
+            this.cmbKategoriler.Location = new System.Drawing.Point(110, 166);
+            this.cmbKategoriler.Name = "cmbKategoriler";
+            this.cmbKategoriler.Size = new System.Drawing.Size(121, 21);
+            this.cmbKategoriler.TabIndex = 11;
+            this.cmbKategoriler.ValueMember = "id";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -204,6 +227,8 @@
         private System.Windows.Forms.Label lblId;
         private System.Windows.Forms.TextBox txtArama;
         private System.Windows.Forms.DataGridView dgvUrunListesi;
+        private System.Windows.Forms.ComboBox cmbKategoriler;
+        private System.Windows.Forms.Label label2;
     }
 }
 
