@@ -82,7 +82,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL-01-CoreConcepts", "SQL-
 		05-backup-truncate-drop.sql = 05-backup-truncate-drop.sql
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms-10-Ado.Net-01", "WindowsForms-10-Ado.Net-01\WindowsForms-10-Ado.Net-01.csproj", "{99D31A36-B3C2-448D-80A6-441DA9F8C74B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms-10-Ado.Net", "WindowsForms-10-Ado.Net-01\WindowsForms-10-Ado.Net.csproj", "{99D31A36-B3C2-448D-80A6-441DA9F8C74B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms-EntityFramework-01-Db-First", "WindowsForms-EntityFramework-Db-First-01\WindowsForms-EntityFramework-01-Db-First.csproj", "{40FDEB73-15B0-4213-BF84-4CE8405FCA24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms-EntityFramework-02-Code-First", "WindowsForms-EntityFramework-Code-First-01\WindowsForms-EntityFramework-02-Code-First.csproj", "{D2B7EA05-0338-4755-8466-D53E6CA9DE43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -234,6 +238,14 @@ Global
 		{99D31A36-B3C2-448D-80A6-441DA9F8C74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99D31A36-B3C2-448D-80A6-441DA9F8C74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99D31A36-B3C2-448D-80A6-441DA9F8C74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40FDEB73-15B0-4213-BF84-4CE8405FCA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FDEB73-15B0-4213-BF84-4CE8405FCA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FDEB73-15B0-4213-BF84-4CE8405FCA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FDEB73-15B0-4213-BF84-4CE8405FCA24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B7EA05-0338-4755-8466-D53E6CA9DE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B7EA05-0338-4755-8466-D53E6CA9DE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B7EA05-0338-4755-8466-D53E6CA9DE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B7EA05-0338-4755-8466-D53E6CA9DE43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
