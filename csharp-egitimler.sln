@@ -88,6 +88,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms-EntityFramewor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms-EntityFramework-02-Code-First", "WindowsForms-EntityFramework-Code-First-01\WindowsForms-EntityFramework-02-Code-First.csproj", "{D2B7EA05-0338-4755-8466-D53E6CA9DE43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication-01", "WebApplication-01\WebApplication-01.csproj", "{AF1DDF75-B1C2-4A6C-A4C4-26450C2C757F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -246,6 +248,10 @@ Global
 		{D2B7EA05-0338-4755-8466-D53E6CA9DE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2B7EA05-0338-4755-8466-D53E6CA9DE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2B7EA05-0338-4755-8466-D53E6CA9DE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF1DDF75-B1C2-4A6C-A4C4-26450C2C757F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1DDF75-B1C2-4A6C-A4C4-26450C2C757F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1DDF75-B1C2-4A6C-A4C4-26450C2C757F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1DDF75-B1C2-4A6C-A4C4-26450C2C757F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

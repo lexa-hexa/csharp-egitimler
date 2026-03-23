@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Javascript Giriş</title>
+    <!--<script>
+        document.writeln('<h1 style="color: aqua">Merhaba Dünya!</h1>');//Ekrana yazı yazdırmak için document.write kullanılır
+        window.alert('Javascript Giriş!');//Burda pencere açtırarak uyarı kullandık
+    </script>-->
+    <script language="javascript">
+        let fiyat, miktar, tutar, fiy, mik;
+        fiyat = window.prompt("fiyatı girin", "0");
+        miktar = window.prompt("miktar girin", "0");
+        fiy = parseInt(fiyat);//string olan fiyatı int olarak parse ettik
+        mik = parseInt(miktar);//string olan miktarı da int olarak parse ettik
+        tutar = fiy * mik;
+        document.writeln('<h1>Fiyat = ' + fiyat + '<h1>');
+        document.writeln('<h1>Miktar = ' + miktar + '<h1>');
+        document.writeln('<h1>Tutar = ' + tutar + '<h1>');
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Döngü (Loop) Oluşturma</title>
+
+    <script>
+        /*
+        //While Döngüsü
+        
+        let say, sayac, toplam;
+        say = window.prompt("Bir tam sayı girin, işlemleri durdurmak için negatif bir tam sayı girin ", "0");
+        say = parseFloat(say);
+        sayac = 0;
+        toplam = 0;
+
+        while (say > 0)
+        {
+        sayac++;
+        toplam += say;
+        say = window.prompt("Bir tam sayı girin", "0");
+        say = parseFloat(say);
+        }
+        document.write("
+        <h3>Girilen pozitif sayıların miktarı: " + sayac + "</h3>");
+        document.write("
+        <h3>Girilen pozitif sayıların toplamı: " + toplam + "</h3>");
+        ------------------------------------------------------------------
+
+            //Do While Döngüsü
+            let say, topl, ort;
+            say = 1;
+            topl = 0;
+
+            do {
+                topl = topl + say;
+                say++;
+            } while (say < 6);
+            ort = topl / (say - 1);
+
+            document.write("<h3>Sayıların toplamı" + topl + "</h3>");
+            document.write("<h3>Sayıların ortalaması " + ort + "</h3>");
+         
+         
+         //For döngüsü
+         
+        for (var i = 1; i <= 10; i++) {
+            document.write("<h3> i nin değeri " + i + "</h3>");
+        }
+        */
+
+        //İç içe For Döngüsü
+        var i, j;
+
+        for (i = 1; i <= 5; i++) {
+            document.write("<h3> i nin değeri " + i + "</h3>");
+            for (j = 1; j <= 3; j++) {
+                document.write("<h3> j nin değeri " + j + "</h3>");
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

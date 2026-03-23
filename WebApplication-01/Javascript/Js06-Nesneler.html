@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Nesneler (Objects) ve Özellikler (Properties)</title>
+    <script>
+        /*function Pers(ad, saatucret) {
+            this.ad = ad;
+            this.saatucret = saatucret;
+            this.odeUcret = odeUcret;
+        }
+
+        function odeUcret(saat) {
+            return this.saatucret * saat;
+        }
+
+        pers1 = new Pers("Ali", 75);
+        pers2 = new Pers("Ayşe", 50);
+        s1 = parseInt(window.prompt("1.personelin çalıştığı saat miktarı", "0"));
+        p1 = pers1.odeUcret(s1);
+        s2 = parseInt(window.prompt("2.Personelin çalıştığı saat miktarı", "0"));
+        p2 = pers2.odeUcret(s2);
+
+        document.writeln("<h3>Personelin adı: " + pers1.ad + "</h3>");
+        document.writeln("<h3>Çalıştığı saat: " + s1 + "</h3>");
+        document.writeln("<h3>Personelin saat ücreti: " + pers1.saatucret + "</h3>");
+        document.writeln("<h3>Personelin alacağı maaş: " + p1 + "</h3>");
+
+        document.writeln("<h3>Personelin adı: " + pers2.ad + "</h3>");
+        document.writeln("<h3>Çalıştığı saat: " + s2 + "</h3>");
+        document.writeln("<h3>Personelin saat ücreti: " + pers2.saatucret + "</h3>");
+        document.writeln("<h3>Personelin alacağı maaş: " + p2 + "</h3>");
+        */
+
+        function oto(marka, model, yil, renk) {
+            this.marka = marka;
+            this.model = model;
+            this.renk = renk;
+            this.yil = yil;
+        }
+        otom = new oto("Mercedes", "G800", 2026, "Altın Sarısı");
+        oton = new oto("BMW", "4.20i", 2025, "Beyaz");
+        otos = new oto("Audi", "RS6", 2024, "Füme");
+
+        function sahis(ad, yas, cins) {
+            this.ad = ad
+            this.yas = yas
+            this.cins = cins
+        }
+
+        selen = new sahis("Selen", 23, "K");
+        ayse = new sahis("Ayşe", 25, "K");
+
+        function oto(marka, model, yil, renk, sahip) {
+            this.marka = marka;
+            this.model = model;
+            this.renk = renk;
+            this.yil = yil;
+            this.sahis = sahip
+        }
+
+        Oto2 = new oto("Mercedes", "G600", 2020, "Beyaz", ayse);
+        Oto3 = new oto("BMW", "5.20i", 2021, "Kırmızı", selen);
+
+        document.write("Personelin adı: " + Oto3.sahis.ad);
+    </script>
+</head>
+<body>
+    <h1>Nesneler (Objects) ve Özellikler (Properties)</h1>
+    <p>Kullanımı: nesneAdi.ozellikAdi</p>
+    
+</body>
+</html>
