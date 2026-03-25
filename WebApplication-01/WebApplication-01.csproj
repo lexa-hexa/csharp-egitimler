@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="Javascript\Js02-MatematikselIslemler.html" />
@@ -75,10 +76,22 @@
     <Content Include="Javascript\Js01-Giris.html" />
     <Content Include="Javascript\Js05-Loops.html" />
     <Content Include="Javascript\Js06-Nesneler.html" />
+    <Content Include="Javascript\Js07-Fonksiyonlar.html" />
+    <Content Include="Javascript\Js08-HazirNesneler.html" />
+    <Content Include="Javascript\Js09-HistoryNesnesi.html" />
+    <Content Include="Javascript\Js10-StringNesnesi.html" />
+    <Content Include="Javascript\Js11-Olaylar.html" />
     <Content Include="Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

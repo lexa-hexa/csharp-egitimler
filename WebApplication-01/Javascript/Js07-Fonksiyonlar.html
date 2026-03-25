@@ -2,9 +2,26 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Fonksiyonlar (Functions)</title>
+    <script>
+        //Basit fonksiyon tanımı
+        function yazdir(parametre) {
+            document.write("<h1>" + parametre + "</h1>");
+        }
+        yazdir("selam");
+
+        function renkDegis(renk) {
+            document.bgColor = renk;
+        }
+
+        //renkDegis("red");
+    </script>
 </head>
 <body>
-
+    <form>
+        <input id="Button1" type="button" value="Sarı" onclick="renkDegis('yellow')" />
+        <input id="Button2" type="button" value="Yeşil" onclick="renkDegis('green')" />
+        <input id="Button3" type="button" value="Kırmızı" onclick="renkDegis('red')" />
+    </form>
 </body>
 </html>
